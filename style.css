@@ -1,3 +1,174 @@
 *{
-  
+  padding: 0px;
+  margin: 0px;
 }
+
+body{
+  background-color: #F5F4F0;
+  margin: 88px auto 48px auto;
+  width: 1120px;
+}
+
+h1, h2, p, li, ol, ul{
+  font-family: Open Sans, "Sans-Serif";
+}
+
+
+
+img{
+  border-radius: 28px;
+  width: 100%;
+}
+
+#title-page{
+  margin-bottom: 40px;
+  padding-block: 8px;
+}
+
+#title-page p{
+  margin-bottom: 8px;
+  color: #E1624F;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#title-page h1{
+  color: #1B1B1B;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#description{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+#description img{
+  height: 660px;
+}
+
+#description p{
+  color: #333333;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+#title-list{
+  margin: 64px 0;
+}
+
+#title-list p{
+  color: #333333;
+  font-size: 16px;
+
+}
+
+#title p{
+  margin-bottom: 2px;
+  color: #E1624F;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#title h2, li, ol{
+  margin-bottom: 8px;
+}
+
+#list{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.card-travel{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-travel h2{
+  color: #1B1B1B;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.card-travel ul, li{
+  list-style-position: inside;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: 4px;
+}
+
+.card-travel ul, li{
+  color: #0C51A7;
+} 
+
+
+#colors  ul li:nth-child(1) {
+  color: #591B98;
+}
+
+#colors ul li:nth-child(2) {
+  color: #E5245E;
+}
+
+#colors ul li:nth-child(3) {
+  color: #E95E10;
+}
+
+li::marker{
+  color: #1B1B1B;
+}
+
+.card-travel h2 + p{
+  margin-bottom: 32px;
+}
+
+.card-travel strong{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#last-p hr{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  background-color: #d9d9d9;
+}
+
+
+#last-p p{
+  text-align: center;
+}
+
+#last-p{
+  margin-bottom: 65px;
+}
+
+footer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img{
+  width: 16px;
+  height: 16px;
+  padding: 0px 4px 0px 4px;
+}
+
+footer p{
+  font-size: 16px;
+  font-weight: 500;
+}
+
